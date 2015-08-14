@@ -45,7 +45,7 @@
                 <div class="title">Home</div>
 
                 Hi, {!! Auth::user()->name; !!}
-                {{--{!! Form::text('Test') !!}--}}
+{{--                {!! Form::text('Test') !!}--}}
                 {!! HTML::link('/auth/logout','Logout') !!}
 
             </div>
